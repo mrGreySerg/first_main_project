@@ -11,7 +11,7 @@
 
 ## some words about bower
 
----
+
 1. npm install bower -g
 2. bower search jquery - есть ли такая библиотека
 3. bower info jquery - информация о версиях
