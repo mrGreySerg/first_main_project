@@ -1,13 +1,13 @@
 # how to install
 
-,,,
+
 1. npm install gulp -g
 2. npm install bower -g
 3. npm init
 4. bower init
-,,,
 
-** I am ** beginner at the *web*
+
+**I am** beginner at the *web*
 
 ## some words about bower
 
