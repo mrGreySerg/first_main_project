@@ -39,3 +39,21 @@ $('button').one('click', function(){
     console.log('push me');
 });
 */
+
+// ================================================================== //
+/* $('ul li').each(function(i, elem){
+    console.log(i);
+    console.log(elem);
+})
+
+$('ul li').each(function(i, elem){
+    if($(elem).hasClass('action'))
+        $(elem).addClass('modify');
+})
+*/
+
+$(function(){
+    $('#fadeOut').on('click', function(){
+        $('#circle').fadeOut(1000);
+    });
+})

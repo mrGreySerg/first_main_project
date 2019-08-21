@@ -10,3 +10,29 @@
     display: block;
     margin-top: 20px;
 }
+
+li{
+    display: inline-block;
+}
+
+.action{
+    color: red;
+}
+
+.modify{
+    transform: rotate(360deg);
+    transition: transform 1.5s;
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: red;
+}
+
+button{
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
