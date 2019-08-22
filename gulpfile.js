@@ -40,7 +40,9 @@ function concatWithNorm(){
 gulp.task('concatCss', gulp.series(scssToCssInApp, concatWithNorm));
 
 function jsApp(){
-    return gulp.src(["./app/bower/jquery/dist/jquery.js", "./app/js/secondary/*.js"])
+    return gulp.src(["./app/bower/jquery/dist/jquery.js", 
+                "./app/bower/jquery-mask-plugin/dist/jquery.mask.js",
+                "./app/js/secondary/*.js"])
                 .pipe(sourcemaps.init())
                 .pipe(concat("main.js"))
                 .pipe(sourcemaps.write())
